@@ -26,7 +26,7 @@
             <div class="py-[100px]">
                 <p class="text-2xl font-bold text-center">今日は何する？</p>
                 <form action="/tasks" method="post" class="mt-10">
-                  @csrf
+                  <?php echo csrf_field(); ?>
  
                   <div class="flex flex-col items-center">
                     <label class="w-full max-w-3xl mx-auto">
@@ -53,4 +53,4 @@
     </footer>
 </body>
  
-</html>
+</html><?php /**PATH C:\Users\CRE\Documents\todo_app\resources\views/tasks/index.blade.php ENDPATH**/ ?>
